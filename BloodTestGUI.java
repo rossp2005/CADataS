@@ -13,7 +13,7 @@ public class BloodTestGUI extends javax.swing.JFrame {
     /**
      * Creates new form BloodTestGUI
      */
- private testScheduler appointmentQueue;
+    private testScheduler appointmentQueue;
     private DeletedPatients missedAppointments; 
    
     public BloodTestGUI() {
@@ -32,6 +32,9 @@ public class BloodTestGUI extends javax.swing.JFrame {
 
         missedAppointments.push(new patient("Aaron Gleesom", 36, "medium", "Dr. O'Connor", true));
         missedAppointments.push(new patient("Blake Bolger", 39, "medium", "Dr. Brennan", false));
+        missedAppointments.push(new patient("Aaron Benson", 36, "medium", "Dr. O'Connor", true));
+        missedAppointments.push(new patient("Ryan Wade", 36, "medium", "Dr. O'Connor", true));
+        missedAppointments.push(new patient("Brian Purcell", 36, "medium", "Dr. O'Connor", true));
     }
 
     @SuppressWarnings("unchecked")
